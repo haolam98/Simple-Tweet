@@ -35,12 +35,11 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/haolam98/Simple-Tweet/blob/master/test_run1.gif' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
 ## Notes
 
 Describe any challenges encountered while building the app:
 - I don't use Twitter so it's difficult for me to test run and check if I have been able to retrieve data correctly
+- I also still got some errors related with refresh swipe & infite scroll
 
 ## Open-source libraries used
 
