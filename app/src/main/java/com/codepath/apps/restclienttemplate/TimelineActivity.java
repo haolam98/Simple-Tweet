@@ -51,7 +51,6 @@ public class TimelineActivity extends AppCompatActivity {
 
         //init client
         client = TwitterApp.getRestClient(this);
-        populatedHomeTimeLine();
 
         //find recycler view
         rvTweet = findViewById(R.id.rvTweets);
