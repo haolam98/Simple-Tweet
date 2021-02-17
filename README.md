@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/haolam98/Simple-Tweet/blob/master/test_run1.gif' />
+<img src='https://github.com/haolam98/Simple-Tweet/blob/master/test_run.gif' />
 
 ## Notes
 
