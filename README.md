@@ -52,8 +52,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+## PART I:  
 <img src='https://github.com/haolam98/Simple-Tweet/blob/master/test_run.gif' />
 
+## PART II:  
+<img src='https://github.com/haolam98/Simple-Tweet/blob/master/test_run2.gif'/>  
 
 ## Notes
 
