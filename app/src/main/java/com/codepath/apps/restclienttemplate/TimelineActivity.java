@@ -164,7 +164,8 @@ public class TimelineActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        if (requestCode == REQUEST_CODE && requestCode == RESULT_OK)
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_CODE && resultCode == RESULT_OK)
         {
             //get data from intent
             Tweet tweet = Parcels.unwrap(data.getParcelableExtra("tweet"));
@@ -173,6 +174,6 @@ public class TimelineActivity extends AppCompatActivity {
             tweetAdapter.notifyItemInserted(0);
             rvTweet.smoothScrollToPosition(0);
         }
-        super.onActivityResult(requestCode, resultCode, data);
+
     }
 }
